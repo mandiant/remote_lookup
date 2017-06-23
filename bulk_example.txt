@@ -1,0 +1,4 @@
+7C80AE40
+GetProcAddress
+msvcrt.atoi
+ntdll!atoi

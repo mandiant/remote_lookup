@@ -1,0 +1,48 @@
+Type=Exe
+Reference=*\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\WINDOWS\system32\stdole2.tlb#OLE Automation
+Reference=*\G{9C4F6F85-F5DB-46F3-AF9A-DCC8A0D8C72D}#1.2#0#bin\sppe.dll#Sandsprite PE File Format Library
+Reference=*\G{C3428DEA-1323-4AA6-A629-44244F7B3D3B}#18.0#0#..\..\libs\proc_lib\procLib.dll#Sandsprite Process Library
+Object={248DD890-BB45-11CF-9ABC-0080C7E7B78D}#1.0#0; MSWINSCK.OCX
+Form=Form1.frm
+Class=CDll; CDll.cls
+Class=CDllExport; CDllExport.cls
+Class=CResolveRemoteExports; CResolveRemoteExports.cls
+Class=CResult; CResult.cls
+Module=modMain; modMain.bas
+Class=CRemoteQuery; CRemoteQuery.cls
+UserControl=ucProgress.ctl
+Startup="Sub Main"
+HelpFile=""
+ExeName32="remoteLookup.exe"
+Path32="bin"
+Command32=""
+Name="Project1"
+HelpContextID="0"
+CompatibleMode="0"
+MajorVer=1
+MinorVer=0
+RevisionVer=0
+AutoIncrementVer=0
+ServerSupportFiles=0
+VersionCompanyName="FireEye"
+CompilationType=0
+OptimizationType=0
+FavorPentiumPro(tm)=0
+CodeViewDebugInfo=0
+NoAliasing=0
+BoundsCheck=0
+OverflowCheck=0
+FlPointCheck=0
+FDIVCheck=0
+UnroundedFP=0
+StartMode=0
+Unattended=0
+Retained=0
+ThreadPerObject=0
+MaxNumberOfThreads=1
+
+[MS Transaction Server]
+AutoRefresh=1
+
+[fastBuild]
+fullPath=%ap%\bin\remoteLookup.exe

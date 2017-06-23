@@ -1,0 +1,2 @@
+memory lookup byte/short/int/x64/string/blob/ ?
+allow partial processname?
